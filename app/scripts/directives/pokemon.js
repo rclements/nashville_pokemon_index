@@ -7,7 +7,7 @@ angular.module('nashvillePokemonIndexApp')
       },
       templateUrl: 'templates/pokemon.html',
       link: function($scope, element, attrs){
-        $scope.getsJiggy = function(){ return true };
+        $scope.sayMyName = function(){ alert($scope.data.name); };
         return true;
       }
     };

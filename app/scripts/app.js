@@ -1,6 +1,8 @@
 'use strict';
 
 angular.module('nashvillePokemonIndexApp', [
+  'nashvillePokemonIndexApp.Services',
+  'nashvillePokemonIndexApp.Controllers',
   'ngCookies',
   'ngResource',
   'ngSanitize'
