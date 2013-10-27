@@ -1,1 +1,13 @@
-<pokemon data='pokemon' ng-repeat='pokemon in pokemons'></pokemon>
+<div ng-controller="MainCtrl">
+  <div class='row'>
+    <div class='large-6 columns'>
+      <pokemon-search>
+    </div>
+    <div class='large-6 columns'>
+      <div data-ng-show="displayedPokemon">
+        <pokemon data="displayedPokemon"></pokemon>
+      </div>
+    </div>
+  </div>
+</div>
+
